@@ -7,11 +7,6 @@ export const profile = {
   email: "zzaa0303@nate.com",
   phone: "010-5245-5058",
   location: "서울 ",
-  links: {
-    github: "https://github.com/YOONHEEKWON",
-    blog: "https://yblog-story.tistory.com/",
-    codepen: "https://codepen.io/HEEKWON1/",
-  },
   totalExperience: "8년 7개월",
 };
 

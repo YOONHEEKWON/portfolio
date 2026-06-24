@@ -42,22 +42,7 @@ export default function Hero() {
           >
             연락하기
           </a>
-          <a
-            href={profile.links.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg border border-slate-700 px-6 py-3 text-sm font-medium text-slate-300 transition-colors hover:border-slate-500 hover:text-white"
-          >
-            GitHub
-          </a>
-          <a
-            href={profile.links.blog}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-lg border border-slate-700 px-6 py-3 text-sm font-medium text-slate-300 transition-colors hover:border-slate-500 hover:text-white"
-          >
-            Blog
-          </a>
+          
         </div>
       </div>
     </section>

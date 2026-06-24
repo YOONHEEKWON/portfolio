@@ -8,10 +8,6 @@ export default function Contact() {
 
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <p className="mb-8 text-slate-400">
-              
-            </p>
-
             <div className="space-y-4">
               <a
                 href={`mailto:${profile.email}`}
@@ -37,33 +33,6 @@ export default function Contact() {
                 </span>
                 {profile.location}
               </div>
-            </div>
-
-            <div className="mt-8 flex gap-4">
-              <a
-                href={profile.links.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-slate-700 px-4 py-2 text-sm text-slate-400 transition-colors hover:border-slate-500 hover:text-white"
-              >
-                GitHub
-              </a>
-              <a
-                href={profile.links.blog}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-slate-700 px-4 py-2 text-sm text-slate-400 transition-colors hover:border-slate-500 hover:text-white"
-              >
-                Blog
-              </a>
-              <a
-                href={profile.links.codepen}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-lg border border-slate-700 px-4 py-2 text-sm text-slate-400 transition-colors hover:border-slate-500 hover:text-white"
-              >
-                CodePen
-              </a>
             </div>
           </div>
 
