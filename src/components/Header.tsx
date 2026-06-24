@@ -14,11 +14,11 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-slate-800/50 bg-slate-950/80 backdrop-blur-md">
+    <header className="fixed top-0 z-50 w-full border-b border-border-dark bg-background-dark/95 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-6">
         <a
           href="#"
-          className="text-lg font-bold tracking-tight text-white"
+          className="text-lg font-bold tracking-tight text-foreground-inverse"
         >
           HEEKWON
         </a>
@@ -28,7 +28,7 @@ export default function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="text-sm text-slate-400 transition-colors hover:text-white"
+              className="text-sm text-foreground-inverse-muted transition-colors hover:text-accent"
             >
               {item.label}
             </a>
@@ -37,7 +37,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center text-slate-400 md:hidden"
+          className="flex h-10 w-10 items-center justify-center text-foreground-inverse-muted md:hidden"
           onClick={() => setOpen(!open)}
           aria-label="메뉴 열기"
         >
@@ -67,12 +67,12 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-slate-800/50 bg-slate-950 px-6 py-4 md:hidden">
+        <nav className="border-t border-border-dark bg-background-dark px-6 py-4 md:hidden">
           {navItems.map((item) => (
             <a
               key={item.href}
               href={item.href}
-              className="block py-3 text-sm text-slate-400 transition-colors hover:text-white"
+              className="block py-3 text-sm text-foreground-inverse-muted transition-colors hover:text-accent"
               onClick={() => setOpen(false)}
             >
               {item.label}

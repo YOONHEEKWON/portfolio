@@ -34,6 +34,7 @@ export const experiences = [
     role: "LMS개발 과장",
     period: "2025.10 ~ 현재",
     duration: "재직 중",
+    participation: 20,
     description:
       "Next.js / TypeScript 기반 LMS 관리자 및 사용자 페이지 프론트엔드 개발. Tailwind CSS 반응형 UI, React 컴포넌트 구조 설계 및 API 연동.",
     tech: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
@@ -44,6 +45,7 @@ export const experiences = [
     role: "DX팀 매니저",
     period: "2025.06 ~ 2025.09",
     duration: "4개월",
+    participation: 100,
     description:
       "React(Next.js), TypeScript 기반 자사 웹 솔루션 UI 개발. Storybook 컴포넌트 문서화, 재사용 가능한 컴포넌트 구조 설계.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Storybook"],
@@ -53,6 +55,7 @@ export const experiences = [
     role: "CJ더마켓 식품제조물류파트 대리",
     period: "2022.03 ~ 2024.10",
     duration: "2년 8개월",
+    participation: "CJ더마켓 운영",
     description:
       "CJ더마켓 운영/구축/개선 업무. 쿠폰 고도화, 상품 상세 페이지 개편, GNB 개선, 프로모션 페이지 구축 및 QA.",
     tech: ["HTML", "CSS", "JavaScript", "GitLab"],
@@ -62,6 +65,7 @@ export const experiences = [
     role: "프론트엔드개발팀 주임연구원",
     period: "2017.12 ~ 2018.09",
     duration: "10개월",
+    participation: 20,
     description:
       "Adwitt2 솔루션 신규 구축(React SPA). Sass 스타일링, Webpack 환경 세팅, API 연동 및 커스터마이징.",
     tech: ["React", "Sass", "Webpack"],
@@ -71,6 +75,7 @@ export const experiences = [
     role: "표준화개발유닛 팀원",
     period: "2016.02 ~ 2017.09",
     duration: "1년 8개월",
+    participation: "프로모션 운영",
     description:
       "TMON PLUS 반응형 개편, 통합 파트너센터 개편, 시즌별 프로모션 페이지 다수 제작.",
     tech: ["HTML", "Sass", "JavaScript", "Git"],
@@ -80,6 +85,7 @@ export const experiences = [
     role: "UI기술팀",
     period: "2015.08 ~ 2015.12",
     duration: "5개월",
+    participation: "SI 프로젝트 100%",
     description:
       "서울삼성병원 영문 모바일 웹, 금융감독원 비교공시통합시스템(WCAG), 한국관광공사 일본어 사이트 구축.",
     tech: ["HTML", "CSS", "JavaScript", "웹접근성"],
@@ -89,6 +95,7 @@ export const experiences = [
     role: "국제방송팀",
     period: "2013.09 ~ 2015.07",
     duration: "1년 11개월",
+    participation: 100,
     description:
       "KBS World 사이트 구축·유지보수, 11개 언어 프로모션 페이지 UI 개발, WorldTV 온에어 리뉴얼.",
     tech: ["HTML", "CSS", "JavaScript", "반응형웹"],
@@ -100,6 +107,7 @@ export const projects = [
   {
     title: "Bler LMS",
     company: "인케이지",
+    participation: 20,
     description:
       "Next.js / TypeScript 기반 LMS 관리자 및 사용자 페이지 프론트엔드 개발",
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -108,6 +116,7 @@ export const projects = [
   {
     title: "CJ더마켓",
     company: "디아이웨어",
+    participation: "CJ더마켓 운영",
     description:
       "쿠폰 고도화, 상품 상세 페이지 개편, GNB 개선, 프로모션 페이지 구축",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -116,18 +125,21 @@ export const projects = [
   {
     title: "Adwitt2",
     company: "와이즈버즈",
+    participation: 20,
     description: "React.js 기반 SPA 광고 솔루션 신규 구축 및 운영",
     tech: ["React", "Sass", "Webpack"],
   },
   {
     title: "TMON ",
     company: "티켓몬스터",
+    participation: "프로모션 운영",
     description: "PC/모바일 통합 반응형 웹 개편 및 파트너센터 UI 개편",
     tech: ["HTML", "Sass", "JavaScript"],
   },
   {
     title: "금융감독원 비교공시",
     company: "PCN",
+    participation: "SI 프로젝트 100%",
     description: "WCAG 웹 접근성 준수 공공기관 사이트 리뉴얼",
     tech: ["HTML", "CSS", "웹접근성"],
     url: "http://finlife.fss.or.kr/",
@@ -135,6 +147,7 @@ export const projects = [
   {
     title: "KBS World",
     company: "KBS미디어",
+    participation: 100,
     description: "11개 언어 글로벌 방송 사이트 구축 및 프로모션 UI 개발",
     tech: ["HTML", "CSS", "JavaScript"],
     url: "http://world.kbs.co.kr/service/index.htm?lang=e",
